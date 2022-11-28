@@ -1,2 +1,20 @@
 # First-Demo
 Just practice 
+<!DOCTYPE html>  
+<html>  
+<head>  
+
+</head>  
+<body>  
+ <p>Calculate the Sum of the two Numbers</p>  
+ <form oninput="res.value=parseInt(a.value)+parseInt(b.value);">  
+    <label>Enter First Value.</label><br>  
+    <input type="number" name="a" value=""/><br>  
+    +<br/>  
+    <label>Enter First Value.</label><br>   
+    <input type="number" name="b" value=""><br>  
+    =<br>  
+    Output is:<output name="res"></output>  
+ </form>  
+</body>  
+</html>
